@@ -2,59 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- 메인 페이지 -->
     <url>
-        <loc>https://kimpo-opus.co.kr/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <loc>https://pungkyungchae.com/</loc>
+        <lastmod>2025-09-16</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     
-    <!-- 섹션 앵커 링크들 -->
+    <!-- 개인정보처리방침 페이지 (별도 HTML) -->
     <url>
-        <loc>https://kimpo-opus.co.kr/#overview</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://kimpo-opus.co.kr/#location</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://kimpo-opus.co.kr/#floorplans</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://kimpo-opus.co.kr/#premium</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://kimpo-opus.co.kr/#convenience</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://kimpo-opus.co.kr/#community</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://kimpo-opus.co.kr/#contact</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <loc>https://pungkyungchae.com/privacy.html</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
     </url>
 </urlset>
