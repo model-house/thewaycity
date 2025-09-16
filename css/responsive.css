@@ -1,0 +1,397 @@
+/* Responsive */
+/* 와이드 스크린 최적화 */
+@media (min-width: 1400px) and (max-width: 1600px) {
+    .nav-container {
+        max-width: 1400px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .nav-menu {
+        gap: 0.8rem;
+    }
+    
+    .nav-menu a {
+        padding: 6px 8px;
+        font-size: 0.9rem;
+    }
+    
+    .logo h1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .logo {
+        max-width: 200px;
+    }
+    
+    .logo h1 {
+        font-size: 1.1rem;
+    }
+    
+    .nav-container {
+        gap: 1rem;
+    }
+    
+    .nav-menu {
+        gap: 0.5rem;
+        margin: 0;
+    }
+    
+    .nav-menu a {
+        padding: 5px 8px;
+        font-size: 0.85rem;
+    }
+    
+    .nav-actions .btn-tel,
+    .nav-actions .btn-register {
+        padding: 0.35rem 0.7rem;
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    /* 전화번호 버튼 숨김 */
+    .nav-actions .btn-tel {
+        display: none;
+    }
+}
+
+/* 네비게이션 한줄 유지를 위한 중간 브레이크포인트 */
+@media (max-width: 940px) {
+    .logo h1 {
+        font-size: 1rem;
+    }
+    
+    .nav-menu a {
+        font-size: 0.8rem;
+        padding: 4px 6px;
+    }
+    
+    .nav-actions .btn-register {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.8rem;
+    }
+}
+
+/* 880px 이하에서 모바일 메뉴로 전환 */
+@media (max-width: 880px) {
+    .nav-menu {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background: white;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transform: translateY(-100%);
+        opacity: 0;
+        transition: all 0.3s ease;
+        display: none;
+    }
+    
+    .nav-menu.active {
+        display: flex;
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+    .nav-menu a {
+        color: var(--text-dark);
+        padding: 12px 20px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav-menu a::after {
+        background: var(--primary-color);
+    }
+    
+    .nav-actions {
+        display: none;
+    }
+    
+    .mobile-menu-toggle {
+        display: flex;
+    }
+    
+    .logo {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo h1 {
+        font-size: 1.1rem;
+    }
+    
+    .nav-container {
+        padding: 1rem 15px;
+    }
+}/* Responsive Styles */
+
+/* Tablet */
+@media (max-width: 768px) {
+    /* Navigation */
+    .nav-menu {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 70px);
+        background: white;
+        flex-direction: column;
+        padding: 2rem;
+        transition: var(--transition);
+        box-shadow: var(--shadow-lg);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .mobile-menu-toggle {
+        display: flex;
+    }
+
+    .mobile-menu-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .mobile-menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .mobile-menu-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+    }
+
+    /* Hero */
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    /* Sections */
+    .section {
+        padding: 60px 0;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .overview-content {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Overview Slider Mobile Adjustments */
+    .overview-slider-wrapper {
+        max-width: 100%;
+        margin: 0;
+    }
+    
+    .overview-slider {
+        aspect-ratio: 4/3;
+    }
+    
+    /* 모바일에서만 버튼 스타일 변경 */
+    .overview-slider-btn {
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    .overview-slider-btn span {
+        line-height: 0.8;
+    }
+
+    .location-highlights {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .floorplans-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .premium-features {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+    
+    /* News Section */
+    .news-article {
+        padding: 20px;
+    }
+    
+    .news-article .news-title {
+        font-size: 1.2rem;
+    }
+    
+    .news-meta {
+        font-size: 0.85rem;
+    }
+    
+    .btn-more-news {
+        padding: 12px 30px;
+        font-size: 0.95rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    /* Overview Section Mobile Fix */
+    .overview-slider-wrapper {
+        flex-direction: column;
+        gap: 0;
+        position: relative;
+    }
+    
+    /* 480px 이하 모바일에서만 적용 */
+    .overview-slider-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+        opacity: 0.9;
+        font-size: 35px;
+        padding: 5px;
+        background: none;
+        border-radius: 0;
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    .overview-slider-btn.prev {
+        left: 10px;
+    }
+    
+    .overview-slider-btn.next {
+        right: 10px;
+    }
+    
+    .overview-slider-wrapper:hover .overview-slider-btn,
+    .overview-slider-btn {
+        opacity: 0.8;
+    }
+    
+    .overview-slider {
+        width: 100%;
+        aspect-ratio: 16/12;
+    }
+    
+    .overview-image-container {
+        width: 100%;
+    }
+    /* Typography */
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.75rem; }
+    h3 { font-size: 1.5rem; }
+    h4 { font-size: 1.25rem; }
+
+    /* Header */
+    .logo h1 {
+        font-size: 1.2rem;
+    }
+
+    /* Hero */
+    .hero-section {
+        min-height: 500px;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-description {
+        font-size: 0.95rem;
+    }
+
+    /* Sections */
+    .section {
+        padding: 40px 0;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+
+    .section-description {
+        font-size: 1rem;
+    }
+
+    .location-highlights {
+        grid-template-columns: 1fr;
+    }
+
+    .overview-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .overview-label {
+        min-width: auto;
+        margin-bottom: 0.5rem;
+    }
+
+    /* Buttons */
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.95rem;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 2rem 0;
+    }
+
+    .footer-info .company {
+        font-size: 1rem;
+    }
+
+    .footer-info .contact-info {
+        font-size: 0.9rem;
+    }
+}
+
+/* Large Desktop */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+
+    .nav-container {
+        max-width: 1320px;
+    }
+
+    .hero-title {
+        font-size: 4rem;
+    }
+
+    .section-title {
+        font-size: 3rem;
+    }
+}

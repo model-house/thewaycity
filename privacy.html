@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="김포 오퍼스 한강 스위첸 - 개인정보처리방침">
+    <meta name="keywords" content="김포, 한강신도시, 아파트, 분양, 스위첸, 개인정보">
+    
+    <title>개인정보처리방침 - 김포 오퍼스 한강 스위첸</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        .privacy-page {
+            padding-top: 100px;
+            min-height: calc(100vh - 100px);
+        }
+        
+        .privacy-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .page-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        .privacy-content {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: var(--shadow-sm);
+            line-height: 1.8;
+        }
+        
+        .privacy-content h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 30px 0 15px;
+            color: var(--primary-color);
+        }
+        
+        .privacy-content p {
+            margin-bottom: 15px;
+            color: var(--text-light);
+        }
+        
+        .privacy-content ul {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        
+        .privacy-content li {
+            margin-bottom: 10px;
+            list-style: disc;
+        }
+    </style>
+</head>
+<body>
+    <!-- 모든 레이아웃은 JavaScript로 동적 생성됩니다 -->
+    
+    <div class="privacy-page">
+        <div class="privacy-container">
+            <h1 class="page-title">개인정보처리방침</h1>
+            
+            <div class="privacy-content">
+                <h2>1. 개인정보의 수집 및 이용목적</h2>
+                <p>김포 오퍼스 한강 스위첸은 다음의 목적을 위하여 개인정보를 처리합니다.</p>
+                <ul>
+                    <li>분양 상담 및 계약 진행</li>
+                    <li>고객 문의 응대 및 서비스 제공</li>
+                    <li>마케팅 및 광고 활용</li>
+                </ul>
+                
+                <h2>2. 수집하는 개인정보 항목</h2>
+                <ul>
+                    <li>필수항목: 성명, 연락처</li>
+                    <li>선택항목: 이메일, 관심평형</li>
+                </ul>
+                
+                <h2>3. 개인정보의 보유 및 이용기간</h2>
+                <p>개인정보는 수집 및 이용목적이 달성된 후에는 지체없이 파기합니다.</p>
+                <ul>
+                    <li>계약 관련 정보: 계약 종료 후 5년</li>
+                    <li>상담 관련 정보: 상담 종료 후 3개월</li>
+                </ul>
+                
+                <h2>4. 개인정보의 제3자 제공</h2>
+                <p>원칙적으로 이용자의 개인정보를 제3자에게 제공하지 않습니다. 다만, 다음의 경우에는 예외로 합니다.</p>
+                <ul>
+                    <li>이용자가 사전에 동의한 경우</li>
+                    <li>법령의 규정에 의한 경우</li>
+                </ul>
+                
+                <h2>5. 개인정보의 파기</h2>
+                <p>개인정보 보유기간의 경과, 처리목적 달성 등 개인정보가 불필요하게 되었을 때에는 지체없이 해당 개인정보를 파기합니다.</p>
+                
+                <h2>6. 문의처</h2>
+                <p>개인정보 처리에 관한 문의사항은 아래로 연락주시기 바랍니다.</p>
+                <ul>
+                    <li>전화: 1811-0000</li>
+                    <li>운영시간: 오전 10시 - 오후 6시</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- JavaScript Modules -->
+    <script type="module">
+        import { LayoutComponents } from './js/modules/layoutComponents.js';
+        import { Navigation } from './js/modules/navigation.js';
+        import { FloatingButtons } from './js/modules/floatingButtons.js';
+        import { DataLoader } from './js/modules/dataLoader.js';
+        
+        // 페이지 초기화
+        async function initPage() {
+            // 데이터 로드
+            const dataLoader = new DataLoader();
+            const data = await dataLoader.loadData();
+            
+            // 레이아웃 컴포넌트 생성
+            const layout = new LayoutComponents();
+            layout.setData(data);
+            
+            // 레이아웃 삽입
+            layout.injectHeader('body', 'afterbegin');
+            layout.injectFooter('body', 'beforeend');
+            layout.injectFloatingButtons('body', 'beforeend');
+            
+            // 네비게이션 초기화
+            const navigation = new Navigation();
+            navigation.init();
+            
+            // 플로팅 버튼 초기화
+            const floatingButtons = new FloatingButtons();
+            floatingButtons.init();
+        }
+        
+        // DOM 로드 완료 후 실행
+        document.addEventListener('DOMContentLoaded', initPage);
+    </script>
+</body>
+</html>

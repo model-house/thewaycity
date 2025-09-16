@@ -1,0 +1,774 @@
+{
+  "site": {
+    "title": "청주 제일풍경채 더웨이시티",
+    "description": "청주의 약 3만7천세대 대단지주거의 시작 신분평 더웨이시티",
+    "contact": {
+      "phone": "1833-9123",
+      "hours": "오전 10시 - 오후 6시",
+      "address": "충북 청주시 상당구 용암동 2980",
+      "kakao": "https://naver.com/",
+      "kakaoEnabled": false,
+      "visitDateRange": {
+        "startDate": "2025-09-17",
+        "endDate": "2025-12-31"
+      }
+    },
+    "footer": {
+      "manager": "업체명 : 유니컴퍼니 | 사업자등록번호 : 877-15-02004 | 고객센터 : 1833-9123",
+      "description": "청주의 약 3만7천세대 대단지주거의 시작 신분평 더웨이시티",
+      "developer": "(유)에이치엠서빈&HM",
+      "constructor": "제일건설(주)",
+      "trustee": "",
+      "additionalNote": "※ 홈페이지의 모든 이미지와 내용은 소비자의 이해를 돕기 위한 것으로 실제와 차이가 있을 수 있습니다.",
+      "disclaimers": [
+        "상기 내용은 인·허가 과정이나 실제 시공 시 현장 여건 등에 따라 일부 변경될 수 있으므로 견본주택에 방문하시어 직접 확인하시기 바랍니다.",
+        "사용된 이미지 혹은 CG는 소비자의 이해를 돕기 위한 것으로 실제와 차이가 날 수 있습니다."
+      ]
+    },
+    "domain": "https://pungkyungchae.com"
+  },
+  "hero": {
+    "title": "으어어어어어",
+    "subtitle": "으어어어어어",
+    "badge": "GRAND OPEN",
+    "slideImages": [
+      "assets/images/hero/hero.jpg",
+      "assets/images/hero/hero1.jpg"
+    ],
+    "backgroundImage": "assets/images/hero/hero.jpg"
+  },
+  "overview": {
+    "items": [
+      {
+        "label": "대지위치",
+        "value": "충청북도 청주시 서원구 장성동 204번지"
+      },
+      {
+        "label": "대지면적",
+        "value": "62,267.00m²(18,835.76평)"
+      },
+      {
+        "label": "건축규모",
+        "value": "지하2층 - 지상29층 / 총1,448세대"
+      },
+      {
+        "label": "민간임대",
+        "value": "59m²  총 793세대"
+      },
+      {
+        "label": "일반분양",
+        "value": "75m².84m².112m² 총 655세대"
+      },
+      {
+        "label": "주차대수",
+        "value": "공동주택 총 2,045대 / 세대당 1.41대"
+      }
+    ],
+    "images": [
+      "assets/images/gaeyo/01cont01.jpg",
+      "assets/images/gaeyo/01cont02.jpg"
+    ]
+  },
+  "design": {
+    "title": "브랜드",
+    "visible": true,
+    "cards": [
+      {
+        "title": "2017,2023년",
+        "points": [
+          {
+            "label": "시공능력평가",
+            "description": "조경분야 실적 1위"
+          }
+        ],
+        "image": "assets/images/sogae/1.jpg",
+        "description": ""
+      },
+      {
+        "title": "2020 - 2023년",
+        "points": [
+          {
+            "label": "신용평가 4년연속",
+            "description": "'AAA'등급"
+          }
+        ],
+        "image": "assets/images/sogae/2.jpg"
+      },
+      {
+        "title": "2012,2018,2019,2024년",
+        "points": [
+          {
+            "label": "매일경제 살기좋은 아파트",
+            "description": "국무총리상 3회 수상 / 국토부 장관상"
+          }
+        ],
+        "image": "assets/images/sogae/3.jpg"
+      },
+      {
+        "title": "2016,2018,2023,2024년",
+        "points": [
+          {
+            "label": "환경주거문화대상",
+            "description": "종합대상 / 아파트대상/ 단지조경대상"
+          }
+        ],
+        "image": "assets/images/sogae/4.jpg"
+      }
+    ]
+  },
+  "location": {
+    "title": "입지 환경",
+    "description": "청주 뉴타운 3만7천세대의 시작",
+    "image": "assets/images/ipzi/map.JPG",
+    "highlights": [
+      {
+        "icon": "🚇",
+        "title": "교통",
+        "description": "어디든 빠르게 쾌속 교통망"
+      },
+      {
+        "icon": "🏙️",
+        "title": "비전",
+        "description": "청주 최대규모 비전 중심지"
+      },
+      {
+        "icon": "🛍️",
+        "title": "생활",
+        "description": "살수록 완벽해질 생활 인프라"
+      },
+      {
+        "icon": "🌳",
+        "title": "자연",
+        "description": "맑고 깨끗한 청정 생활권"
+      }
+    ]
+  },
+  "floorPlans": {
+    "title": "평면도",
+    "description": "감각적인 공간 설계",
+    "plans": [
+      {
+        "type": "59A",
+        "area": "59.9965㎡",
+        "units": "439세대",
+        "description": "4Bay 남동/남서 위주",
+        "features": [
+          "4Bay 남동/남서 위주 배치",
+          "채광/통풍 유리",
+          "합리적인 공간 구성"
+        ],
+        "image": "assets/images/pungsu/59a.jpg",
+        "areaDetails": [
+          {
+            "label": "전용면적",
+            "value": "59.9965㎡"
+          },
+          {
+            "label": "주거공용",
+            "value": "23.8795㎡"
+          },
+          {
+            "label": "공급면적",
+            "value": "83.8760㎡"
+          },
+          {
+            "label": "계약면적",
+            "value": "127.9282㎡"
+          }
+        ],
+        "additionalImages": []
+      },
+      {
+        "type": "59B",
+        "area": "59.9790㎡",
+        "units": "354세대",
+        "description": "판상형 남동/남서 위주",
+        "features": [
+          "판상형 남동/남서 위주",
+          "독립된 공간 구성",
+          "조망권 우수"
+        ],
+        "image": "assets/images/pungsu/59b.jpg",
+        "areaDetails": [
+          {
+            "label": "전용면적",
+            "value": "59.9790㎡"
+          },
+          {
+            "label": "주거공용",
+            "value": "23.4106㎡"
+          },
+          {
+            "label": "공급면적",
+            "value": "83.3896㎡"
+          },
+          {
+            "label": "계약면적",
+            "value": "127.4289㎡"
+          }
+        ],
+        "additionalImages": []
+      },
+      {
+        "type": "75A",
+        "area": "75.9546㎡",
+        "units": "114세대",
+        "description": "4Bay 남향 위주",
+        "features": [
+          "4Bay 남동/남서 위주 배치",
+          "채광/통풍 유리",
+          "합리적인 공간 구성"
+        ],
+        "image": "assets/images/pungsu/75a.jpg",
+        "areaDetails": [
+          {
+            "label": "전용면적",
+            "value": "75.9546㎡"
+          },
+          {
+            "label": "주거공용",
+            "value": "28.4840㎡"
+          },
+          {
+            "label": "공급면적",
+            "value": "104.4386㎡"
+          },
+          {
+            "label": "계약면적",
+            "value": "160.2080㎡"
+          }
+        ],
+        "additionalImages": []
+      },
+      {
+        "type": "75B",
+        "area": "75.9216㎡",
+        "units": "61세대",
+        "description": "판상형 남서 위주",
+        "features": [
+          "판상형 남서 위주",
+          "독립된 공간 구성",
+          "드레스룸 특화"
+        ],
+        "image": "assets/images/pungsu/75b.jpg",
+        "areaDetails": [
+          {
+            "label": "전용면적",
+            "value": "75.9216㎡"
+          },
+          {
+            "label": "주거공용",
+            "value": "28.5475㎡"
+          },
+          {
+            "label": "공급면적",
+            "value": "104.4691㎡"
+          },
+          {
+            "label": "계약면적",
+            "value": "160.2143㎡"
+          }
+        ],
+        "additionalImages": []
+      },
+      {
+        "type": "75C",
+        "area": "75.9275㎡",
+        "units": "59세대",
+        "description": "판상형 남향 위주",
+        "features": [
+          "판상형 남향 위주",
+          "독립된 공간 구성",
+          "광폭 거실 특화설계"
+        ],
+        "image": "assets/images/pungsu/75c.jpg",
+        "areaDetails": [
+          {
+            "label": "전용면적",
+            "value": "75.9275㎡"
+          },
+          {
+            "label": "주거공용",
+            "value": "29.1388㎡"
+          },
+          {
+            "label": "공급면적",
+            "value": "105.0663㎡"
+          },
+          {
+            "label": "계약면적",
+            "value": "160.8158㎡"
+          }
+        ],
+        "additionalImages": []
+      },
+      {
+        "type": "84A",
+        "area": "84.8267㎡",
+        "units": "221세대",
+        "description": "4Bay 남동/남서 위주",
+        "features": [
+          "4Bay 남동/남서 위주 배치",
+          "채광/통풍 유리",
+          "합리적인 공간 구성"
+        ],
+        "image": "assets/images/pungsu/84a.jpg",
+        "areaDetails": [
+          {
+            "label": "전용면적",
+            "value": "84.8267㎡"
+          },
+          {
+            "label": "주거공용",
+            "value": "32.0211㎡"
+          },
+          {
+            "label": "공급면적",
+            "value": "116.8478㎡"
+          },
+          {
+            "label": "계약면적",
+            "value": "179.1316㎡"
+          }
+        ],
+        "additionalImages": []
+      },
+      {
+        "type": "84B",
+        "area": "84.9571㎡",
+        "units": "142세대",
+        "description": "판상형 남동/남서 위주",
+        "features": [
+          "판상형 남동/남서 위주",
+          "독립된 공간 구성",
+          "조망권 우수"
+        ],
+        "image": "assets/images/pungsu/84b.jpg",
+        "areaDetails": [
+          {
+            "label": "전용면적",
+            "value": "84.9571㎡"
+          },
+          {
+            "label": "주거공용",
+            "value": "31.2288㎡"
+          },
+          {
+            "label": "공급면적",
+            "value": "116.1859㎡"
+          },
+          {
+            "label": "계약면적",
+            "value": "178.5654㎡"
+          }
+        ],
+        "additionalImages": []
+      },
+      {
+        "type": "112A",
+        "area": "112.8901㎡",
+        "units": "58세대",
+        "description": "4Bay 남서 위주",
+        "features": [
+          "4Bay 남동/남서 위주 배치",
+          "채광/통풍 유리",
+          "대형타입 구조 설계"
+        ],
+        "image": "assets/images/pungsu/112.jpg",
+        "areaDetails": [
+          {
+            "label": "전용면적",
+            "value": "112.8901㎡"
+          },
+          {
+            "label": "주거공용",
+            "value": "39.7948㎡"
+          },
+          {
+            "label": "공급면적",
+            "value": "152.6849㎡"
+          },
+          {
+            "label": "계약면적",
+            "value": "235.5741㎡"
+          }
+        ],
+        "additionalImages": []
+      }
+    ]
+  },
+  "premium": {
+    "title": "프리미엄",
+    "description": "신분평 더웨이시티 PREMIUM5",
+    "additionalInfo": "",
+    "visible": true,
+    "layoutType": "cards",
+    "features": [
+      {
+        "icon": "🏢",
+        "title": "'더'웨이시티",
+        "description": "더앞도적인 프리미엄",
+        "details": [
+          "약3만7천 세대 스케일의 신흥주거벨트",
+          "비전을 선점하는 첫 분양단지 프리미엄"
+        ]
+      },
+      {
+        "icon": "🚗",
+        "title": "더'웨'이시티",
+        "description": "웨이를 다 품은 교통망",
+        "details": [
+          "1.2.3순환로 / 17번국도 / 강서IC",
+          "쾌속 교통망과 빠른 주거단지"
+        ]
+      },
+      {
+        "icon": "🏙",
+        "title": "더웨'이'시티",
+        "description": "이상적인 브랜드 대단지",
+        "details": [
+          "청주 최대 스케일",
+          "총 3,949세대 랜드마크"
+        ]
+      },
+      {
+        "icon": "📐",
+        "title": "더웨이'시'티",
+        "description": "시스템 남다른 특화설계",
+        "details": [
+          "공원형 단지 설계",
+          "전 세대 남향위주배치",
+          "조경면적 평균 약 "
+        ]
+      },
+      {
+        "icon": "⭐",
+        "title": "더웨이시'티'",
+        "description": "티나게 좋은 민간임대 혜택",
+        "details": [
+          "자격조건,전세사기,이사걱정,세금부담없는",
+          "10년간 안전하고 든든한 민간임대 아파트"
+        ]
+      }
+    ],
+    "images": []
+  },
+  "options": {
+    "title": "기본 제공 품목 안내",
+    "description": "김포 오퍼스 한강 스위첸의 프리미엄 기본 제공 품목",
+    "visible": false,
+    "categories": [
+      {
+        "title": "시스템",
+        "items": [
+          {
+            "title": "공동현관",
+            "description": "안면인식 시스템"
+          },
+          {
+            "title": "현관 간접조명",
+            "description": "(84B, 84C, 99B)"
+          },
+          {
+            "title": "거실 및 각 침실",
+            "description": "에어컨 냉매배관"
+          },
+          {
+            "title": "현관/복도/거실/주방",
+            "description": "스크래치리스 도배지"
+          }
+        ]
+      },
+      {
+        "title": "주방/가전",
+        "items": [
+          {
+            "title": "거실 매입등 조도 및",
+            "description": "디밍 조절"
+          },
+          {
+            "title": "엔지니어드스톤",
+            "description": "주방상판"
+          },
+          {
+            "title": "와이드",
+            "description": "사각 싱크볼"
+          },
+          {
+            "title": "전기",
+            "description": "오븐"
+          }
+        ]
+      },
+      {
+        "title": "욕실/발코니",
+        "items": [
+          {
+            "title": "다용도실 및 발코니",
+            "description": "걸레받이 도장"
+          },
+          {
+            "title": "전동 빨래",
+            "description": "건조대"
+          },
+          {
+            "title": "실외기 AL",
+            "description": "자동루버"
+          },
+          {
+            "title": "욕실 샤워",
+            "description": "안전손잡이"
+          }
+        ]
+      },
+      {
+        "title": "시스템/보안",
+        "items": [
+          {
+            "title": "주방 센서형",
+            "description": "절수 수전"
+          },
+          {
+            "title": "고급형",
+            "description": "전열교환기"
+          },
+          {
+            "title": "비데일체형",
+            "description": "욕실"
+          }
+        ]
+      }
+    ]
+  },
+  "convenience": {
+    "title": "주거 프리미엄",
+    "description": "교육 프리미엄",
+    "subtitle": "단지 내 종로엠스쿨 입점",
+    "visible": false,
+    "facilities": [
+      {
+        "category": "가족의 안전을 지켜주는 보안 시스템11",
+        "items": [
+          {
+            "name": "무인경비 시스템",
+            "description": "공용현관과 경비실이 연계되어 외부 침입 등 비상 상황 시 신속 대응 가능"
+          },
+          {
+            "name": "CCTV 설치 (400만 화소)",
+            "description": "단지 내 안전한 생활을 위해 주차장, 놀이터, 엘리베이터 등에 설치"
+          },
+          {
+            "name": "첨단 디지털 도어록",
+            "description": "위급 시 문열림 버튼을 눌러 구조 요청할 수 있는 안전 도어록 설치"
+          },
+          {
+            "name": "홈네트워크 시스템",
+            "description": "가정 내 월패드를 통해 방문자 확인 및 공동현관 자동문 제어 가능"
+          },
+          {
+            "name": "주차관제 시스템",
+            "description": "차량번호 인식 및 무인 자동 출차 시스템으로 입·출차 통제 및 주차 편의 제공"
+          },
+          {
+            "name": "비상콜 시스템",
+            "description": "세대 내 월패드에서 경비실과 바로 통화 가능하여 위급 상황 시 신속한 대응 도움"
+          },
+          {
+            "name": "각 세대 현관 앞 비상경보 시스템",
+            "description": "세대 현관에 설치된 비상벨 누르면 경비실에 경보 발생 및 긴급상황 전달"
+          },
+          {
+            "name": "주차위치 인식 시스템",
+            "description": "지하주차장에 설치된 주차위치 인식 시스템을 통해 내 차량 위치 손쉽게 확인"
+          },
+          {
+            "name": "CCTV 통합관제 시스템",
+            "description": "CCTV 영상을 중앙에서 통합 관리하여 안전성을 강화하고 신속한 상황대처 가능"
+          }
+        ]
+      },
+      {
+        "category": "똑똑하게 에너지를 아껴주는 에너지 절감 시스템",
+        "items": [
+          {
+            "name": "대기전력 차단 스위치",
+            "description": "사용하지 않는 가전제품의 대기전력을 차단하여 전기요금 절감"
+          },
+          {
+            "name": "에너지 사용량 모니터링 시스템",
+            "description": "세대 내에서 전기, 수도, 가스 사용량을 실시간 확인 가능"
+          },
+          {
+            "name": "주차장 LED 조명",
+            "description": "고효율 LED 조명 사용으로 에너지 절약 및 유지비 절감"
+          },
+          {
+            "name": "거실 인디렉트 조명 (간접조명, 색온도)",
+            "description": "세대 내부 거실에 설치된 인디렉트 조명은 색온도 조절 가능"
+          },
+          {
+            "name": "스마트 스위치",
+            "description": "세대 내 조명을 스마트하게 제어하여 에너지 절감 및 생활 편의 제공"
+          },
+          {
+            "name": "복도 LED 조명 센서",
+            "description": "공용 복도에는 움직임 감지 센서를 설치해 효율적인 전력 사용"
+          },
+          {
+            "name": "대기전력 차단 콘센트",
+            "description": "필요 시 자동으로 대기전력을 차단해 공용 전기 절감"
+          }
+        ]
+      }
+    ]
+  },
+  "community": {
+    "title": "커뮤니티 시설",
+    "description": "예술과 작품이 되는 일상을 커뮤니티에서 만들다",
+    "visible": true,
+    "showOverview": true,
+    "showFloorplan": false,
+    "overviewImage": "assets/images/community/03cont01.jpg",
+    "floorPlanImage": "assets/images/community/03cont02.jpg",
+    "facilities": [
+      {
+        "name": "EDU ZONE",
+        "description": "남녀로 구분된 독서실과\n스터디룸, 휴게공간 등\n학습 능률이 오르는\n조용한 분위기의 학습공간",
+        "mainImage": "assets/images/community/edu.JPG"
+      },
+      {
+        "name": "KIDS ZONE",
+        "description": "상상라운지, 다함께 돌봄센터,\n펫라운지 등\n부모와 자녀 모두가 만족하는\n안전한 놀이공간입니다",
+        "mainImage": "assets/images/community/kids.JPG"
+      },
+      {
+        "name": "LEISURE ZONE",
+        "description": "골프강습실, 골프연습장,\n퍼팅존, 스크린테니스장 등\n날씨와 계절에 상관없이\n이용 가능한 운동 공간입니다",
+        "mainImage": "assets/images/community/golf.JPG"
+      },
+      {
+        "name": "SPORTS ZONE",
+        "description": "피트니스센터, GX룸, 엔드리스풀,\n남녀 샤워실까지\n활력 넘치는 일상을 선물하는\n원스텝 운동공간입니다",
+        "mainImage": "assets/images/community/sports.JPG"
+      }
+    ]
+  },
+  "qna": {
+    "title": "자주 묻는 질문",
+    "description": "궁금하신 점을 확인해보세요",
+    "visible": true,
+    "items": [
+      {
+        "question": "청주 제일풍경채 더웨이시티는 위치가 어디죠?",
+        "answer": "청주시 장성지구 도시개발사업지에 위치해 있습니다. 주소지로는 분평동이며, 현재 청주 남부지역의 3만7천여세대의 친환경 주택단지 조성을 위한 약 4천세대중에서 1,448세대를 우선공급을 시작하고 있습니다."
+      },
+      {
+        "question": "민간임대는 뭐죠?",
+        "answer": "10년간 합리적인 임대 조건으로 이사 걱정 없이 거주할 수 있는 상품입니다.\n청약통장 미사용, 세금 부담 없음(과세 대상 아님), 전매제한 없음, 부동산 실거래 신고의무 없음, 다주택자도 상관없습니다.\n민간임대만 있는게 아니며, 일반분양 세대도 같이 분양중입니다."
+      },
+      {
+        "question": "평형 구성은 어떻게 되나요?",
+        "answer": "청주 제일풍경채는 전용 59㎡는 민간임대로 구성\n전용 75㎡~112㎡는 일반분양으로 구성되어 있습니다"
+      },
+      {
+        "question": "분양가 및 임대가는 얼마죠?",
+        "answer": "민간임대는 동/호수 상관없이 2억후반대 입니다\n일반분양은 타입별 그리고 단지별 가격은 상이합니다.\n추가로 동/호수에 따라서 가격이 차이가 발생 되기 때문에 자세한 분양가격 및 조건안내는 대표번호 1833-9123 으로 문의주시면 고객님들께 상세한 안내가 됩니다."
+      },
+      {
+        "question": "모델하우스 운영 시간 및 위치?",
+        "answer": "청주 신분평 더웨이시티 모델하우스\n위치 : 청주시 상당구 용암동 2980번지\n운영시간 : 오전10시 ~ 오후6시\n평일/공휴일/주말 모두 운영됩니다\n방문예약 : 홈페이지 예약 시스템"
+      }
+    ]
+  },
+  "news": {
+    "title": "언론보도",
+    "description": "청주 제일풍경채 더웨이시티의 최신 뉴스를 확인하세요",
+    "visible": true,
+    "items": [
+      {
+        "title": "신분평 더웨이시티 제일풍경채, 차별화된 커뮤니티로 주목받는 청주 신흥 주거벨트",
+        "source": "파이낸셜뉴스",
+        "date": "2025-07-23",
+        "articleTitle": "집값 좌우 커뮤니티 차별화...'신분평 더웨이시티 풍경채' 눈길",
+        "link": "https://www.fnnews.com/news/202507231549144554",
+        "image": "",
+        "content": "에 보도된 내용에 따르면, 청주 신분평 일대에서 분양 중인 더웨이시티 제일풍경채가 특화된 커뮤니티 시설로 주목을 받고 있는 이유는 기존 신도심과 신분평 도시개발지구를 잇는 신흥 주거 벨트 중심에 위치해 주거 편의성과 미래가치를 동시에 갖춘 것으로 평가된다.\n\n신분평 도시개발사업 일대는 동남지구·방서지구·지북지구·가마지구 등 이미 개발된 생활권과 연계돼 있으며, 추가로 분평2지구 개발도 예정돼 있어 주거벨트 확장이 기대된다.\n\n● 총 가구수 : 총 3,900가구 이상 대규모 단지 구성 중 1차 1,500여세대 우선 공급\n● 커뮤니티 특장점 : 피트니스센터,골프연습장,작은도서관 등 생활형 커뮤니티 시설\n● 실수요자 관점 : 초기 분양가 및 임대료 부담을 낮춘 구조\n\n이 게시물은 파이낸셜뉴스 기사 의 제목과 주요 내용을 참고하여 요약·재구성한 것이며, 전문은 파이낸셜뉴스 홈페이지에서 확인할 수 있습니다.",
+        "ctaLink": "",
+        "createdAt": "2025-09-16T15:13:00.663Z"
+      },
+      {
+        "title": "청주 시장 달군 신분평 더웨이시티, 청약 열기 뜨거워 13대1 경쟁률 기록",
+        "source": "매일경제",
+        "date": "2025-07-08",
+        "articleTitle": "‘신분평 더웨이시티 제일풍경채’ 민간임대 청약서 1만351건 접수…평균 경쟁률 13.05대 1",
+        "link": "https://www.mk.co.kr/news/realestate/11362262",
+        "image": "",
+        "content": "에 따르면, 청주 신분평 지역의 민간임대 시장이 뜨겁다. 더웨이시티 제일풍경채 민간임대 청약에 1만 건이 넘는 신청이 접수되며 평균 경쟁률 13대1 이상을 기록했다. 이는 최근 청주시에서 진행된 민간임대 중 가장 높은 결과이다. 투자 또는 실거주자의 관심을 끌고 있다.\n\n이번 청약 결과를 보면, 전용 59㎡ A타입(439가구)에는 5,916건이 접수되어 13.48대1, B타입(354가구)에는 4,435건이 접수되어 12.53대1을 기록했다. 온라인 추첨 시스템인 ‘유니피커’를 통해 공정하게 진행된 것이 특징이다.\n\n● 공급형태 : 민간임대 / 일반분양\n● 위치 : 충북 청주시 상당구 신분평 도시개발사업지\n● 장점 : 주변 대규모 개발지역과 초인접, 신흥 주거벨트의 시작\n\n출저\n이 게시물은 매일경제 기사 의 핵심 내용을 바탕으로 요약·재구성한 것이며, 전문은 매일경제 원문에서 확인할 수 있습니다.",
+        "ctaLink": "",
+        "createdAt": "2025-09-16T15:13:32.355Z"
+      },
+      {
+        "title": "청주 신분평 더웨이시티 제일풍경채 모델하우스 오픈 3일간 2만3000명 방문",
+        "source": "한국경제",
+        "articleTitle": "초여름 더위에 2만3000명 줄섰다…청주 달군 신흥 주거 벨트",
+        "date": "2025-06-30",
+        "link": "https://www.hankyung.com/article/2025063083766",
+        "image": "",
+        "content": "보도에 따르면, 청주 부동산 시장의 관심이 신분평 더웨이시티 제일풍경채로 집중되고 있는것같다. 지난 6월 27일 문을 연 모델하우스에는 사흘 동안 약 2만3000명이 방문해 초여름 더위에도 400m가 넘는 입장 대기 줄이 형성됐으며, 주변 도로가 종일 정체를 이뤘다.\n\n신분평 더웨이시티 제일풍경채는 일반분양과 민간임대를 동시에 공급해 다양한 수요자의 접근성을 높였다. 주변 교통·생활인프라 확충과 대규모 도시개발 호재가 겹치면서 실수요자뿐 아니라 투자자들의 관심도 커지고 있다.\n\n● 전용 면적 구성: 전용 75~112㎡ 일반분양 655가구 포함\n● 전용 면적 구성: 전용 59㎡ 민간임대 793가구 등\n● 사업규모: 지하 2층~지상 29층, 총 12개 동 규모\n\n이 단지는 충북 청주시 상당구 신분평 도시개발사업지에 들어서는 주거복합단지로, 향후 약 3만7000가구 규모의 신흥 주거 벨트 중심에 위치한다. 기존 동남·방서·지북·가마지구와 인접해 있고, 추가로 분평2지구 개발도 예정돼 있어 미래가치가 높다는 평가를 받는 곳이다.\n\n출처\n이 게시물은 한국경제 기사 의 핵심내용을 요약·재구성하였으며, 전체 전문은 한국경제 홈페이지에서 확인할 수 있습니다.",
+        "ctaLink": "https://apply.lh.or.kr/",
+        "createdAt": "2025-09-16T15:13:21.036Z"
+      }
+    ]
+  },
+  "contact": {
+    "title": "상담 문의",
+    "subtitle": "위의 내용 중 궁금한 점이 있으신가요?",
+    "address": "경기도 김포시 장기동 모델하우스",
+    "phone": "1811-0013",
+    "hours": "오전 10시 - 오후 6시",
+    "kakao": ""
+  },
+  "footer": {
+    "projectInfo": {
+      "projectName": "",
+      "manager": "",
+      "description": "",
+      "address": ""
+    },
+    "companies": {
+      "developer": "",
+      "constructor": "",
+      "trustee": ""
+    },
+    "contacts": {
+      "phone": "",
+      "kakao": ""
+    },
+    "additionalNote": "",
+    "disclaimers": []
+  },
+  "seo": {
+    "title": "청주 제일풍경채 더웨이시티",
+    "description": "청주 신분평 더웨이시티 홈페이지 | 타입별 평면도 | 분양가 | 모델하우스 방문 | 위치안내 | 장기일반민간임대주택 공급",
+    "keywords": "청주 아파트,청주 제일풍경채,더웨이시티 모델하우스,청주 전세아파트,민간임대아파트,청주 풍경채 분양가,모델하우스 위치,청주 분평동 아파트,",
+    "ogImage": "assets/images/hero/hero.jpg"
+  },
+  "layout": {
+    "title": "단지 배치도",
+    "description": "자연과 함께하는 프리미엄 단지 설계",
+    "features": [
+      {
+        "title": "남동/남서 위주 배치",
+        "description": "전 세대 남동/남서 위주로 채광과 조망이 뛰어난 설계"
+      },
+      {
+        "title": "넓은 동간 거리",
+        "description": "쾌적한 주거환경을 위한 여유로운 동간 거리 확보"
+      }
+    ],
+    "images": [
+      "assets/images/layout/danji.JPG"
+    ],
+    "visible": true
+  }
+}

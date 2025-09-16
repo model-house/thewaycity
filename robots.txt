@@ -1,0 +1,87 @@
+# robots.txt for 김포 오퍼스 한강 스위첸
+# Created: 2025-01-01
+
+# 모든 검색엔진 봇 허용
+User-agent: *
+
+# 크롤링 허용
+Allow: /
+
+# 관리자 페이지 제외
+Disallow: /admin/
+Disallow: /admin
+
+# 데이터 폴더 제외
+Disallow: /data/
+
+# JavaScript 모듈 폴더 제외 (선택적)
+# Disallow: /js/
+
+# CSS 및 이미지는 허용 (검색엔진이 페이지를 올바르게 렌더링하도록)
+Allow: /css/
+Allow: /assets/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# 크롤링 속도 제한 (선택적 - 서버 부하 방지)
+Crawl-delay: 1
+
+# 사이트맵 위치
+Sitemap: https://hillstate.n-e.kr/sitemap.xml
+
+# 주요 검색엔진별 설정
+# Googlebot
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /data/
+Crawl-delay: 0
+
+# Naver Yeti
+User-agent: Yeti
+Allow: /
+Disallow: /admin/
+Disallow: /data/
+Crawl-delay: 0
+
+# Daum
+User-agent: Daumoa
+Allow: /
+Disallow: /admin/
+Disallow: /data/
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+Disallow: /data/
+Crawl-delay: 1
+
+# 악성 봇 차단 (선택적)
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# 이미지 크롤링 허용 (이미지 검색 최적화)
+User-agent: Googlebot-Image
+Allow: /assets/images/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+
+# 모바일 검색 최적화
+User-agent: Googlebot-Mobile
+Allow: /
