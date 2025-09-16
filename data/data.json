@@ -28,14 +28,14 @@
     "domain": "https://pungkyungchae.com"
   },
   "hero": {
-    "title": "으어어어어어",
-    "subtitle": "으어어어어어",
+    "title": "청주 신분평 더웨이시티 제일풍경채",
+    "subtitle": "청주 신거주타운의 미래를 미리 선점하라!",
     "badge": "GRAND OPEN",
     "slideImages": [
-      "assets/images/hero/hero.jpg",
-      "assets/images/hero/hero1.jpg"
+      "assets/images/hero/01cont01.jpg",
+      "assets/images/hero/01cont02.jpg"
     ],
-    "backgroundImage": "assets/images/hero/hero.jpg"
+    "backgroundImage": "assets/images/hero/01cont01.jpg"
   },
   "overview": {
     "items": [
@@ -70,7 +70,7 @@
     ]
   },
   "design": {
-    "title": "브랜드",
+    "title": "브랜드 제일건설",
     "visible": true,
     "cards": [
       {
