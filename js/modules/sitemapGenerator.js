@@ -105,10 +105,13 @@ export class SitemapGenerator {
 # 모든 검색엔진 봇 허용
 User-agent: *
 Allow: /
+Allow: /data/data.json
 
-# 관리자 페이지 및 데이터 폴더 제외
+# 관리자 페이지 제외
 Disallow: /admin/
-Disallow: /data/
+
+# 크롤링 딜레이 설정 (초 단위)
+Crawl-delay: 1
 
 # 사이트맵 위치
 Sitemap: ${this.baseUrl}/sitemap.xml`;

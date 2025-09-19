@@ -186,12 +186,12 @@ class App {
                           `${window.location.origin}/${ogImagePath.replace(/^\//, '')}`;
         
         const ogTags = [
-            { property: 'og:title', content: this.data.seo?.title || this.data.site?.title || '김포 오퍼스 한강 스위첸' },
-            { property: 'og:description', content: this.data.seo?.description || this.data.site?.description || '김포 한강신도시 프리미엄 주거공간' },
+            { property: 'og:title', content: this.data.seo?.title || this.data.site?.title || '' },
+            { property: 'og:description', content: this.data.seo?.description || this.data.site?.description || '' },
             { property: 'og:type', content: 'website' },
             { property: 'og:url', content: window.location.href },
             { property: 'og:image', content: ogImageUrl },
-            { property: 'og:site_name', content: this.data.site?.title || '김포 오퍼스 한강 스위첸' },
+            { property: 'og:site_name', content: this.data.site?.title || '' },
             { property: 'og:locale', content: 'ko_KR' }
         ];
         
@@ -243,8 +243,8 @@ class App {
         const structuredData = {
             "@context": "https://schema.org",
             "@type": "RealEstateListing",
-            "name": this.data.seo?.title || this.data.site?.title || "김포 오퍼스 한강 스위첨",
-            "description": this.data.seo?.description || this.data.site?.description || "김포 한강신도시 프리미엄 아파트",
+            "name": this.data.seo?.title || this.data.site?.title || "",
+            "description": this.data.seo?.description || this.data.site?.description || "",
             "url": window.location.href,
             "image": this.data.seo?.ogImage || "assets/images/hero/hero.jpg",
             "address": {
