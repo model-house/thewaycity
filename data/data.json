@@ -6,10 +6,10 @@
       "phone": "1833-9123",
       "hours": "오전 10시 - 오후 6시",
       "address": "충북 청주시 상당구 용암동 2980",
-      "kakao": "https://naver.com/",
-      "kakaoEnabled": false,
+      "kakao": "https://open.kakao.com/o/sNxtPnUh",
+      "kakaoEnabled": true,
       "visitDateRange": {
-        "startDate": "2025-09-17",
+        "startDate": "2025-07-01",
         "endDate": "2025-12-31"
       }
     },

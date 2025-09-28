@@ -1,5 +1,5 @@
 # robots.txt for 청주 제일풍경채 더웨이시티
-# Generated: 2025-09-19
+# Generated: 2025-09-28
 
 # 모든 검색엔진 봇 허용
 User-agent: *
